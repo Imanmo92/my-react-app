@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#041212;
+  --card:#0b1717;
+  --muted:#9aa6a6;
+}
+body{background:radial-gradient(closest-corner, rgba(10,30,20,1), rgba(2,7,8,1));}
+
+.neon-text{
+  background: -webkit-linear-gradient(#dfffc9,#b1ff9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
